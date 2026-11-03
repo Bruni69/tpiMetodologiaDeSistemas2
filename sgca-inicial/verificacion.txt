@@ -1,0 +1,11 @@
+Verificaciones reales de consola del alcance reducido - 2026-11-03
+regular: OK
+analitico: OK
+deuda: OK
+no_regular: OK
+alumno_inexistente: OK
+tipo_invalido: OK
+solicitud_inexistente: OK
+doble_emision: OK
+lista_vacia: OK
+entrada_invalida: OK
