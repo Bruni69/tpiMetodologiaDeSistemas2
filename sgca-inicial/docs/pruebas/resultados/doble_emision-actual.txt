@@ -1,0 +1,37 @@
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir
+Alumno: 1 Ana, 2 Luis (con deuda), 3 Eva (no regular)
+Tipo: 1 Regular, 2 Analitico parcial
+Solicitud registrada: 1
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir
+Numero de solicitud:
+CERTIFICADO DE ALUMNO REGULAR
+Alumno: Ana Ejemplo
+Fecha: 2026-11-04
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir
+Numero de solicitud:
+Solicitud ya emitida
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir

@@ -1,0 +1,15 @@
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir
+Sin solicitudes
+
+SGCA - prototipo inicial
+1 Registrar solicitud
+2 Emitir certificado
+3 Consultar solicitud
+4 Listar solicitudes
+0 Salir

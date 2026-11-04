@@ -1,0 +1,15 @@
+OK - regular
+OK - analitico
+OK - deuda
+OK - no_regular
+OK - doble_emision
+OK - listar
+OK - alumno_inexistente
+OK - tipo_invalido
+OK - ambos_invalidos
+OK - consulta_inexistente
+OK - emision_inexistente
+OK - lista_vacia
+OK - entrada_invalida
+OK - opcion_invalida
+Total: 14. Fallos: 0.
