@@ -48,21 +48,31 @@ public class SGCA {
         }
     }
 
+    static void registrarSolicitud(int id, int t) {
+    Alumno x = null;
+    for (Alumno z : a) if (z.id == id) x = z;
+    if (x == null) {
+        System.out.println("Alumno inexistente");
+        return;
+    }
+    if (t != 1 && t != 2) {
+        System.out.println("Tipo invalido");
+        return;
+    }
+    Solicitud y = new Solicitud();
+    y.id = n++;
+    y.alumno = id;
+    y.tipo = t;
+    y.fecha = LocalDate.now().toString();
+    y.estado = "REGISTRADA";
+    s.add(y);
+    System.out.println("Solicitud registrada: " + y.id);
+}
+
     static void hacer(int op, int id, int t, int numero, String nombre, boolean deuda) {
         if (op == 1) {
-            Alumno x = null;
-            for (Alumno z : a) if (z.id == id) x = z;
-            if (x == null) { System.out.println("Alumno inexistente"); return; }
-            if (t != 1 && t != 2) { System.out.println("Tipo invalido"); return; }
-            Solicitud y = new Solicitud();
-            y.id = n++;
-            y.alumno = id;
-            y.tipo = t;
-            y.fecha = LocalDate.now().toString();
-            y.estado = "REGISTRADA";
-            s.add(y);
-            System.out.println("Solicitud registrada: " + y.id);
-        } else if (op == 2) {
+            registrarSolicitud(id, t);
+        }else if (op == 2) {
             Solicitud y = null;
             for (Solicitud z : s) if (z.id == numero) y = z;
             if (y == null) { System.out.println("Solicitud inexistente"); return; }
